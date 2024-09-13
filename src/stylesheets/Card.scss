@@ -1,0 +1,77 @@
+.Card {
+    &--body {
+        @media screen and (max-width: 599) {
+            display: flex;
+            width: 160px !important;
+            height: 151px !important;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        @media screen and (max-width: 1023) {
+            display: flex;
+            width: 160px !important;
+            height: 151px !important;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        @media screen and (max-width: 1280) {
+            display: flex;
+            width: 208px !important;
+            height: 198px !important;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        @media screen and (max-width: 1599) {
+            display: flex;
+            height: 199px !important;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1 0 0;
+        }
+
+        @media screen and (min-width: 1600) {
+            display: flex;
+            height: 228px !important;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1 0 0;
+        }
+    }
+
+    &--image {
+        @media screen and (max-width: 599) {
+            width: 160px;
+            height: 115px;
+        }
+
+        @media screen and (max-width: 1023) {
+            width: 160px;
+            height: 115px;
+        }
+
+        @media screen and (max-width: 1280) {
+            width: 208px;
+            height: 150px;
+        }
+
+        @media screen and (max-width: 1599) {
+            width: 209px;
+            height: 151px;
+        }
+
+        @media screen and (min-width: 1600) {
+            width: 248px;
+            height: 180px;
+        }
+    }
+
+    &--flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+    }
+
+}

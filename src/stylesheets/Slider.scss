@@ -1,0 +1,10 @@
+.Slider {
+    &--flex {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .swiper-wrapper {
+        justify-content: space-around !important;
+    }
+}
